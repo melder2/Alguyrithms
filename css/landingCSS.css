@@ -74,7 +74,7 @@ h3{
     grid-row: 6;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 18% 2.5% 18% 2.5% 18% 2.5% 18% 2.5% 18%;
+    grid-template-rows: 18% 2% 18% 2% 18% 2% 18% 2% 18% 2%;
     font-size: small;
 }
 
@@ -183,6 +183,15 @@ h3{
     grid-row: 9;
     background-color: goldenrod;
     font-size: medium;
+}
+
+#designartifacts{
+    padding-left: 10px;
+    padding-top: 3px;
+    text-align: center;
+    grid-column: 1 /span 2;
+    grid-row: 10;
+    background-color: rgb(195, 6, 6);
 }
 
 
